@@ -1,7 +1,28 @@
 aid: noora-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/noora-health.png
 name: Noora Health
-description: Noora Health is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Noora Health is a healthcare nonprofit that turns the time patients and their
+  families spend in hospitals into an opportunity to learn high-impact health
+  skills. Working through public and private health systems across South Asia,
+  its Care Companion Program trains family caregivers at the bedside so they can
+  care for their loved ones after discharge, reducing preventable complications
+  and readmissions. Founded in 2014 and a Y Combinator-backed organization, Noora
+  Health operates in India, Bangladesh, Indonesia, and Nepal and has trained tens
+  of millions of caregivers and patients. It is a mission-driven organization
+  rather than an API provider, and no public developer portal, API, or SDK surface
+  was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/noora-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,32 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Nonprofit
+- Healthcare
+- Health Education
+- Caregivers
+- Global Health
+- South Asia
 apis: []
+common:
+- type: DomainSecurity
+  url: security/noora-health-domain-security.yml
+- type: Website
+  url: https://noorahealth.org
+- type: Blog
+  url: https://noorahealth.org/thecompanion/
+- type: PrivacyPolicy
+  url: https://noorahealth.org/privacy-policy/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
